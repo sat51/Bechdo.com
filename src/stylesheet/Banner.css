@@ -1,0 +1,26 @@
+.HomeBanner{
+   width: 100%; 
+   object-fit: cover;
+   height: 65vh;
+}
+
+.Categories__available{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* .Category__title{
+    text-align: center;
+} */
+
+.Actual__categories{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 10em;
+    margin-top: 2em;
+
+}
+
+.Categories__inStock{
+    margin-left: 10em;
+}

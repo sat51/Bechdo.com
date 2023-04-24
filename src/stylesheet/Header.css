@@ -1,0 +1,60 @@
+.Header_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Header_leftContainer{
+    width: 20%;
+}
+
+.Header_leftContainerLogo{
+    width: 40%;
+    
+}
+
+.Header_centerContainer{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width: 60%;
+}
+
+.Header__centerInputField{
+    flex: 1;
+    border: none;
+    padding: 0.5em 2em;
+}
+
+.Header__centerIcon{
+    border-left: 2px solid grey;
+    background-color: black;
+    color: white;
+    padding: 0.4em 0em;
+}
+
+.Header_rightContainer{
+    display: flex;
+    align-items: center;
+    
+}
+
+.Header__rightLinkText{
+    margin-right: 0.8em;
+}
+
+.Header__rightButton{
+    border-radius: 999px;
+    padding: 0.5em 2em;
+}
+.Header__rightButton:hover{
+    transition: ease-in-out 0.4s;
+    background-color: black;
+    color: white;
+
+}
